@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="challenge3.css" />
+    <title>Rock, Paper,Scissors</title>
+  </head>
+  <body>
+    <main>
+      <section class="main-container border-outline">
+        <div class="container1">
+          <h2>
+            Challenge 3 <br />
+            Rock, Paper, Scissors.
+          </h2>
+        </div>
+        <div class="container2 border-outline" id="rps-div">
+          <div class="images">
+            <img
+              src="images/rock.png"
+              alt=""
+              class="image-rock"
+              id="rock"
+              onclick="rpsGame(this)"
+            />
+          </div>
+          <div class="images">
+            <img
+              src="images/paper.png"
+              alt=""
+              class="image-paper"
+              id="paper"
+              onclick="rpsGame(this)"
+            />
+          </div>
+          <div class="images">
+            <img
+              src="images/hand.png"
+              alt=""
+              class="image-hand"
+              id="scissors"
+              onclick="rpsGame(this)"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="challenge3.js"></script>
+  </body>
+</html>
